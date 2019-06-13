@@ -37,8 +37,8 @@ calories = weightInKilograms * exercise[user_exercise] * hour
 print("Calories is", format(calories, ".2f"))
 if calories < 100:
     print("運動不足")
-elif calories > 200:
+elif calories < 1500:
     print("運動正常")
-elif calories > 1000:
-    print("運動稍微過量，建議每天均衡運動即可")
+
+
 
